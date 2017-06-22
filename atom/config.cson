@@ -1,0 +1,120 @@
+"*":
+  "activate-power-mode":
+    autoToggle: false
+    particles:
+      size:
+        max: 5
+        min: 4
+  "atom-beautify":
+    general:
+      _analyticsUserId: "bcab241a-b69b-498e-8045-fd16ce9e8f3a"
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        alpha: 1
+        blue: 194
+        green: 187
+        red: 144
+      accentColor:
+        alpha: 1
+        blue: 146
+        green: 156
+        red: 218
+      genAccent: true
+      predefinedColor: "Blue Grey"
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "xkcd-comics"
+      "minimap"
+      "linter-htmlhint"
+      "linter-rubocop"
+      "proto-repl"
+      "pigments"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "~/Projects"
+    telemetryConsent: "limited"
+    themes: [
+      "isotope-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  "dark-flat-ui": {}
+  editor:
+    fontFamily: "Source Code Pro"
+    invisibles: {}
+    preferredLineLength: 120
+  "exception-reporting":
+    userId: "91cb4a6c-aa84-7131-37f7-b54617795ddd"
+  "file-icons": {}
+  "gruvbox-plus-syntax": {}
+  "isotope-ui":
+    customBackgroundColorPicker: "#252525"
+    fontFamily: "Source Sans Pro"
+    lowContrastTooltip: true
+    matchEditorFont: true
+    minimalMode: true
+  linter:
+    errorPanelHeight: 35
+  "linter-ruby": {}
+  minimap:
+    absoluteMode: true
+  "one-dark-ui":
+    layoutMode: "Compact"
+    tabSizing: "Even"
+  "platformio-ide-terminal":
+    core:
+      scrollback: 10000
+    style:
+      fontFamily: "Source Code Pro"
+      fontSize: "12"
+      theme: "pro"
+    toggles:
+      autoClose: true
+  rspec:
+    command: "bundle exec rspec"
+  "ruby-test":
+    rspecAllCommand: "bundle exec rspec --tty"
+    rspecFileCommand: "bundle exec rspec --tty {relative_path}"
+    rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
+    shell: "zsh"
+    specFramework: "rspec"
+  "seti-ui":
+    compactView: true
+    themeColor: "Steel"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "terminal-plus":
+    style:
+      fontFamily: "Source Code Pro"
+    toggles: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+".diff.source":
+  editor:
+    preferredLineLength: 120
+".go.source":
+  editor:
+    preferredLineLength: 120
+".gohtml.html.text":
+  editor:
+    preferredLineLength: 120
+".gotemplate.source":
+  editor:
+    preferredLineLength: 120
+".rspec.ruby.source":
+  editor:
+    preferredLineLength: 120
