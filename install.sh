@@ -13,6 +13,7 @@ apm install `cat packages.list`
 rm -rf /Users/Lonnie/.oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone git@github.com:zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # vim
 mkdir ~/.vim/plugged

@@ -17,6 +17,8 @@ ln -sv ~/.dotfiles/zsh/themes ~/.oh-my-zsh/custom/themes
 # vim
 rm ~/.config/nvim/init.vim
 ln -sv ~/.dotfiles/vim/init.vim ~/.config/nvim/init.vim
+rm ~/.vimrc
+ln -sv ~/.dotfiles/vim/.vimrc ~/.vimrc
 
 # atom
 rm ~/.atom/config.cson
