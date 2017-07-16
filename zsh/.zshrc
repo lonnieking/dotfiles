@@ -3,7 +3,6 @@ export ZSH=/Users/Lonnie/.oh-my-zsh
 
 # THEME
 ZSH_THEME='spaceship'
-SPACESHIP_PROMPT_SYMBOL='🍕 '
 
 # CONFIG
 COMPLETION_WAITING_DOTS="true"
