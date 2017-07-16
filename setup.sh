@@ -24,5 +24,9 @@ ln -sv ~/.dotfiles/vim/.vimrc ~/.vimrc
 rm ~/.atom/config.cson
 ln -sv ~/.dotfiles/atom/config.cson ~/.atom/config.cson
 
+# psql
+rm ~/.psqlrc
+ln -sv ~/.dotfiles/psql/.psqlrc ~/.psqlrc
+
 # MacOS + iTerm 2
 source osxdefaults.sh
