@@ -20,6 +20,10 @@ ln -sv ~/.dotfiles/vim/init.vim ~/.config/nvim/init.vim
 rm ~/.vimrc
 ln -sv ~/.dotfiles/vim/.vimrc ~/.vimrc
 
+# tmux
+rm ~/tmux.config
+ln -sv ~/.dotfiles/tmux/tmux.conf ~/tmux.conf
+
 # atom
 rm ~/.atom/config.cson
 ln -sv ~/.dotfiles/atom/config.cson ~/.atom/config.cson
