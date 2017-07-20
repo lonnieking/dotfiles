@@ -1,8 +1,9 @@
 # brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew update
 brew tap neovim/neovim
-brew install git node wget zsh zsh-completions neovim
+brew install git rbenv nvm node wget zsh zsh-completions neovim postgresql awscli awsm tmate
 brew cask install iterm2
 
 # atom
@@ -19,6 +20,14 @@ git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shel
 mkdir ~/.vim/plugged
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# node
+nvm install node
+nvm use node
+
+#rbenv
+rbenv init
+rbenv install 2.3.3
 
 # setup
 source setup.sh
