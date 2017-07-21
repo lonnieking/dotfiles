@@ -3,7 +3,7 @@
 
 brew update
 brew tap neovim/neovim
-brew install git rbenv nvm node wget zsh zsh-completions neovim postgresql awscli awsm tmate
+brew install git rbenv nvm node wget zsh zsh-completions neovim postgresql awscli awsm tmate ctop
 brew cask install iterm2
 
 # atom
