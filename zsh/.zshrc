@@ -40,4 +40,4 @@ export NVM_DIR="/Users/Lonnie/.nvm"
 # HOOROO
 export AWS_ENV_NAME=development-lonnie
 export AWS_DEFAULT_REGION=ap-southeast-2
-export $(~/projects/hooroo/ted/export-aws-creds nonprod | awk '{print $1}' | xargs -L1)
+export $(~/projects/hooroo/ted/export-aws-creds default | awk '{print $1}' | xargs -L1)
