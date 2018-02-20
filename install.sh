@@ -25,8 +25,7 @@ apm install `cat atom/packages.list`
 # vim
 echo "setting up vim"
 mkdir -p ~/.vim/plugged
-curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # rbenv
 # echo "setting up rbenv"
@@ -39,6 +38,8 @@ rm -rf /Users/Lonnie/.oh-my-zsh
 git clone git@github.com:zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 curl -o- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
 # node
 echo "setting up node and nvm"
