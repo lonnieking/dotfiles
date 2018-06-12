@@ -1,0 +1,7 @@
+A file to hold useful commands that I will forget, but don't want to
+
+change an image's solid colored background to a transparent one
+
+  convert in.jpg -fuzz 5% -transparent white out.png
+
+
