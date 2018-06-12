@@ -38,18 +38,19 @@ alias be="bundle exec"
 alias bi="bundle install"
 # docker
 alias dc="docker-compose"
-# alias dx="docker rm $(docker ps -a -f status=exited -q)"
 alias dccx="docker container prune --filter 'until=48h'"
 alias dcix="docker image prune --filter 'until=48h'"
 
 # Node Version Manager
-export NVM_DIR="/Users/Lonnie/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Added by fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# HOOROO
-export AWS_ENV_NAME=development-lonnie
-# export AWS_DEFAULT_REGION=ap-southeast-2
-# export $(~/projects/hooroo/ted/export-aws-creds default | awk '{print $1}' | xargs -L1)
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/lonnie/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/lonnie/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/lonnie/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/lonnie/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
