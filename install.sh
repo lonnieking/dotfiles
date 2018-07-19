@@ -38,8 +38,7 @@ rm -rf /Users/Lonnie/.oh-my-zsh
 git clone git@github.com:zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 curl -o- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash
-git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+ln -s "../zsh/mini.zsh-theme" "$ZSH_CUSTOM/themes/mini.zsh-theme"
 
 # node
 echo "setting up node and nvm"
