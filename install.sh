@@ -38,7 +38,7 @@ rm -rf /Users/Lonnie/.oh-my-zsh
 git clone git@github.com:zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 curl -o- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash
-ln -s "../zsh/mini.zsh-theme" "$ZSH_CUSTOM/themes/mini.zsh-theme"
+ln -s "$HOME/dotfiles/zsh/mini.zsh-theme" "$ZSH_CUSTOM/themes/mini.zsh-theme"
 
 # node
 echo "setting up node and nvm"
